@@ -35,11 +35,13 @@ if ( is_home() || is_front_page() ) {
     
     <style type="text/css">
 	
+	<?php if ( !is_home() && !is_front_page() ) { ?>
 	<?php if ( get_header_image() ){ ?>
-		#header {
-			background:url(<?php header_image(); ?>);
+		.top-fixed {
+			background:url(<?php header_image(); ?>) !important;
 		}
 	
+	<?php } ?>
 	<?php } ?>
 	
 	

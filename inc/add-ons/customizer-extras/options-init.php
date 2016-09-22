@@ -99,7 +99,7 @@ if ( class_exists( 'Kirki' ) ) {
 		'label'       => __( 'Copyright Info', 'simgo' ),
 		'description' => __( 'Add custom copyright info to WordPress footer <br>(Support HTML tags)', 'simgo' ),
 		'section'     => 'panel-theme-general',
-		'default'     => '&copy; '.__( 'Copyright', 'simgo' ).' 2016 &middot; <a href="'.esc_url(home_url('/')).'" title="'.get_bloginfo( 'name' ).'">'.get_bloginfo( 'name' ).'</a> | <a href="'.esc_url( __( 'https://wordpress.org/', 'simgo' ) ).'">'.sprintf( __( 'Powered by %s', 'simgo' ), 'WordPress' ).'</a>',
+		'default'     => '&copy; '.__( 'Copyright', 'simgo' ).' 2016 &middot; <a href="'.esc_url(home_url('/')).'" title="'.get_bloginfo( 'name' ).'">'.get_bloginfo( 'name' ).'</a>',
 		'priority'    => 10,
 		'sanitize_callback' => 'simgo_kirki_do_not_filter_anything',//Allowing html in text
 	) );
@@ -184,8 +184,7 @@ if ( class_exists( 'Kirki' ) ) {
 		'priority'    => 10,
 		'choices'     => array(
 			'standard'   => get_template_directory_uri() . '/inc/add-ons/customizer-extras/images/blog/layout-style-1.png',
-			'no-sidebar' => get_template_directory_uri() . '/inc/add-ons/customizer-extras/images/blog/layout-style-2.png',
-			'masonry'  => get_template_directory_uri() . '/inc/add-ons/customizer-extras/images/blog/layout-style-3.png',
+			'no-sidebar' => get_template_directory_uri() . '/inc/add-ons/customizer-extras/images/blog/layout-style-2.png'
 		),
 	) );
 	
@@ -262,123 +261,7 @@ if ( class_exists( 'Kirki' ) ) {
 	
 	
 	
-	/**
-	 * ----------------------  Add sub section. ----------------------
-	 * 
-	 */
 	
-    if ( class_exists( 'UixShortcodes' ) ) {
-	
-		Kirki::add_section( 'panel-theme-map', array(
-			'title'          => __( 'Google Map', 'simgo' ),
-			'priority'       => 2,
-			'capability'     => 'edit_theme_options',
-			'panel'          => 'panel-theme-styling',
-		) );
-		
-		/**
-		 * Add the configuration.
-		 * 
-		 * will inherit these options
-		 */
-		
-		
-		Kirki::add_field( $simgo_kirki_config_id, array(
-			'type'        => 'radio-image',
-			'settings'    => 'custom_map_style',
-			'label'       => __( 'Map Style', 'simgo' ),
-			'description' => __( 'You can make a search, use the name of a place, city, state, or address, or click the location on the map to get lat long coordinates. &rarr; <a href="//www.latlong.net/" target="_blank">Get Latitude Longitude</a>', 'simgo' ),
-			'section'     => 'panel-theme-map',
-			'default'     => 'normal',
-			'priority'    => 10,
-			'choices'     => array(
-					'normal'   => UixShortcodes::plug_directory() .'assets/images/map/map-style-1.png',
-					'gray'   => UixShortcodes::plug_directory() .'assets/images/map/map-style-2.png',
-					'black'   => UixShortcodes::plug_directory() .'assets/images/map/map-style-3.png',
-					'real'   => UixShortcodes::plug_directory() .'assets/images/map/map-style-4.png',
-					'terrain'   => UixShortcodes::plug_directory() .'assets/images/map/map-style-5.png',
-					'white'   => UixShortcodes::plug_directory() .'assets/images/map/map-style-6.png',
-					'dark-blue'   => UixShortcodes::plug_directory() .'assets/images/map/map-style-7.png',
-					'dark-blue-2'   => UixShortcodes::plug_directory() .'assets/images/map/map-style-8.png',
-					'blue'   => UixShortcodes::plug_directory() .'assets/images/map/map-style-9.png',
-					'flat'   => UixShortcodes::plug_directory() .'assets/images/map/map-style-10.png',
-				
-			),
-		) );
-		
-		Kirki::add_field( $simgo_kirki_config_id, array(
-			'type'        => 'text',
-			'settings'    => 'custom_map_name',
-			'label'       => __( 'Place Name', 'simgo' ),
-			'description' => '',
-			'section'     => 'panel-theme-map',
-			'default'     => 'SEO San Francisco, CA, Gough Street, San Francisco, CA',
-			'priority'    => 10,
-		) );
-		
-		Kirki::add_field( $simgo_kirki_config_id, array(
-			'type'        => 'text',
-			'settings'    => 'custom_map_latitude',
-			'label'       => __( 'Latitude', 'simgo' ),
-			'description' => '',
-			'section'     => 'panel-theme-map',
-			'default'     => '37.7770776',
-			'priority'    => 10,
-		) );
-		
-		
-		Kirki::add_field( $simgo_kirki_config_id, array(
-			'type'        => 'text',
-			'settings'    => 'custom_map_longitude',
-			'label'       => __( 'Longitude', 'simgo' ),
-			'description' => '',
-			'section'     => 'panel-theme-map',
-			'default'     => '-122.4414289',
-			'priority'    => 10,
-		) );
-	
-		
-		Kirki::add_field( $simgo_kirki_config_id, array(
-			'type'        => 'slider',
-			'settings'    => 'custom_map_zoom',
-			'label'       => __( 'Zoom', 'simgo' ),
-			'description' => '',
-			'section'     => 'panel-theme-map',
-			'default'     => '14',
-			'priority'    => 10,
-			'choices' => array(
-				'min' => 3,
-				'max' => 21,
-				'step' => 1,
-			),
-		) );
-		
-		
-		Kirki::add_field( $simgo_kirki_config_id, array(
-			'type'        => 'text',
-			'settings'    => 'custom_map_height',
-			'label'       => __( 'Map Height', 'simgo' ),
-			'description' => __( 'It default to using a 100% width. The height pixel (px) unit is adjustable.', 'simgo' ),
-			'section'     => 'panel-theme-map',
-			'default'     => '285',
-			'priority'    => 10,
-		) );
-	
-		Kirki::add_field( $simgo_kirki_config_id, array(
-			'type'        => 'image',
-			'settings'    => 'custom_map_marker',
-			'label'       => __( 'Marker', 'simgo' ),
-			'description' => __( 'By default, a marker uses a standard image. Markers can display custom images, in which case they are usually referred to as "icons."', 'simgo' ),
-			'section'     => 'panel-theme-map',
-			'default'     => UixShortcodes::plug_directory() .'assets/images/map/map-location.png',
-			'priority'    => 10,
-		) );
-
-	}
-
-	
-	
- 
 
 	
     /*

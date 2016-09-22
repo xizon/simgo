@@ -87,9 +87,9 @@ global $social_footer;
             
 				<?php
                 // Display custom copyright
-                echo do_shortcode( html_entity_decode( get_theme_mod( 'custom_copyright', '&copy; '.__( 'Copyright', 'simgo' ).' 2016 &middot; <a href="'.esc_url(home_url('/')).'" title="'.get_bloginfo( 'name' ).'">'.get_bloginfo( 'name' ).'</a> | <a href="'.esc_url( __( 'https://wordpress.org/', 'simgo' ) ).'">'.sprintf( __( 'Powered by %s', 'simgo' ), 'WordPress' ).'</a>' ) ) );
+                echo do_shortcode( html_entity_decode( get_theme_mod( 'custom_copyright', '&copy; '.__( 'Copyright', 'simgo' ).' 2016 &middot; <a href="'.esc_url(home_url('/')).'" title="'.get_bloginfo( 'name' ).'">'.get_bloginfo( 'name' ).'</a>' ) ) );
                 ?>
-    
+                 | <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'simgo' ) ); ?>"><?php echo sprintf( __( 'Powered by %s', 'simgo' ), 'WordPress' ); ?></a> | <a href="<?php echo esc_url( __( 'https://uiux.cc', 'simgo' ) ); ?>"><?php echo sprintf( __( 'Theme by %s', 'simgo' ), 'UIUX Lab' ); ?></a>
 
             </div>
             

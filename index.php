@@ -32,7 +32,11 @@ get_header(); ?>
         <section class="body">
 
       
-                <div class="content-container">
+					<?php if ( $layout != 'no-sidebar' ) { ?>
+          
+                    <div class="content-container">
+                    
+                    <?php } ?>
 
                   
                     <!-- ==================  Post list ==================  -->
@@ -49,11 +53,7 @@ get_header(); ?>
                                  * called content-___.php (where ___ is the Post Format name) and that will be used instead.
                                  */
                                      
-                                     if ( $layout == 'standard' ) {
-                                         
-                                         get_template_part( 'content', get_post_format() );
-                                         
-                                     }
+                                     get_template_part( 'content', get_post_format() );
                                 
                             ?>
             
@@ -70,20 +70,25 @@ get_header(); ?>
                     
                     <a class="more-link" href="<?php echo get_permalink( Simgo_Core::get_pageid_from_template( 'blog.php' ) ); ?>" title="<?php echo get_bloginfo( 'name' ); ?>" >View all &rarr;</a>
     
-                
-                </div><!-- /.content-container -->
-                
-                <div class="sidebar-container">
-                     
-                     
-                       <?php get_sidebar(); ?>
+                    <?php if ( $layout != 'no-sidebar' ) { ?>
                     
                     
+                    </div><!-- /.content-container -->
                     
+                    <div class="sidebar-container">
+                         
+                         
+                           <?php get_sidebar(); ?>
+                        
+                        
+                        
+                        
+                    </div><!-- /.sidebar-container -->
                     
-                </div><!-- /.sidebar-container -->
-                
-                <div class="clear"></div>
+                    <div class="clear"></div>
+                    
+                    <?php } ?>
+                            
         
   
      

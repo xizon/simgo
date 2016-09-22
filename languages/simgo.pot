@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: _s 1.0.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
 "POT-Creation-Date: 2015-06-12 21:51:31+0000\n"
-"POT-Revision-Date: Wed Sep 21 2016 13:13:23 GMT+0800 (CST)\n"
+"POT-Revision-Date: Fri Sep 23 2016 00:47:35 GMT+0800 (CST)\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,7 +124,7 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#: ../footer.php:36 ../functions.php:389
+#: ../footer.php:36 ../functions.php:371
 msgid "Footer Widget 1"
 msgstr ""
 
@@ -135,7 +135,7 @@ msgid ""
 "&raquo; Widgets</strong></a> and dragging widgets into \"Footer Widget 1\"."
 msgstr ""
 
-#: ../footer.php:49 ../functions.php:400
+#: ../footer.php:49 ../functions.php:382
 msgid "Footer Widget 2"
 msgstr ""
 
@@ -146,7 +146,7 @@ msgid ""
 "&raquo; Widgets</strong></a> and dragging widgets into \"Footer Widget 2\"."
 msgstr ""
 
-#: ../footer.php:62 ../functions.php:411
+#: ../footer.php:62 ../functions.php:393
 msgid "Footer Widget 3"
 msgstr ""
 
@@ -161,103 +161,112 @@ msgstr ""
 msgid "Copyright"
 msgstr ""
 
-#: ../footer.php:90 ../inc/add-ons/customizer-extras/options-init.php:102 ..
-#: /inc/class/class-modify-meta-widget.php:53
+#: ../footer.php:92 ../inc/class/class-modify-meta-widget.php:53
 msgid "https://wordpress.org/"
 msgstr ""
 
-#: ../footer.php:90 ../inc/add-ons/customizer-extras/options-init.php:102
+#: ../footer.php:92
 #, php-format
 msgid "Powered by %s"
 msgstr ""
 
-#: ../functions.php:110
+#. Author URI of the theme
+#: ../footer.php:92
+msgid "https://uiux.cc"
+msgstr ""
+
+#: ../footer.php:92
+#, php-format
+msgid "Theme by %s"
+msgstr ""
+
+#: ../functions.php:92
 msgid "Primary Menu"
 msgstr ""
 
-#: ../functions.php:378
+#: ../functions.php:360
 msgid "Primary Sidebar"
 msgstr ""
 
-#: ../functions.php:380
+#: ../functions.php:362
 msgid "Main sidebar that appears on the left."
 msgstr ""
 
-#: ../functions.php:391
+#: ../functions.php:373
 msgid "Widgets in this area are used in the first footer region."
 msgstr ""
 
-#: ../functions.php:402
+#: ../functions.php:384
 msgid "Widgets in this area are used in the second footer region."
 msgstr ""
 
-#: ../functions.php:413
+#: ../functions.php:395
 msgid "Widgets in this area are used in the third footer region."
 msgstr ""
 
-#: ../functions.php:504
+#: ../functions.php:486
 #, php-format
 msgid "Required fields are marked %s"
 msgstr ""
 
-#: ../functions.php:514
+#: ../functions.php:496
 msgid "Name"
 msgstr ""
 
-#: ../functions.php:519
+#: ../functions.php:501
 msgid "Email"
 msgstr ""
 
-#: ../functions.php:524 ../inc/add-ons/customizer-extras/options-init.php:644
+#: ../functions.php:506 ../inc/add-ons/customizer-extras/options-init.php:527
 msgid "Website"
 msgstr ""
 
-#: ../functions.php:534
+#: ../functions.php:516
 msgid "Comment"
 msgstr ""
 
-#: ../functions.php:541
+#: ../functions.php:523
 msgid "You must be"
 msgstr ""
 
-#: ../functions.php:541
+#: ../functions.php:523
 msgid "logged in"
 msgstr ""
 
-#: ../functions.php:541
+#: ../functions.php:523
 msgid "to post a comment"
 msgstr ""
 
-#: ../functions.php:544
+#: ../functions.php:526
 msgid "Logged in as"
 msgstr ""
 
-#: ../functions.php:545
+#: ../functions.php:527
 msgid "Log out of this account"
 msgstr ""
 
-#: ../functions.php:545
+#: ../functions.php:527
 msgid "Log out"
 msgstr ""
 
-#: ../functions.php:549
+#: ../functions.php:531
 msgid "Your email address will not be published"
 msgstr ""
 
-#: ../functions.php:556
+#: ../functions.php:538
 msgid "Leave a Reply"
 msgstr ""
 
-#: ../functions.php:557
+#: ../functions.php:539
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr ""
 
-#: ../functions.php:558
+#: ../functions.php:540
 msgid "Cancel reply"
 msgstr ""
 
-#: ../functions.php:559
+#: ../functions.php:541
 msgid "Leave a message"
 msgstr ""
 
@@ -265,11 +274,11 @@ msgstr ""
 msgid "Please enable the Kirki Plugin in order to see the demo in the Customizer"
 msgstr ""
 
-#: ../header.php:122
+#: ../header.php:124
 msgid "Menu"
 msgstr ""
 
-#: ../header.php:159
+#: ../header.php:161
 msgid "Home"
 msgstr ""
 
@@ -378,384 +387,335 @@ msgstr ""
 msgid "Blog Layout"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:195
+#: ../inc/add-ons/customizer-extras/options-init.php:194
 msgid "Add Infinite Scroll to Your Blog"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:196
+#: ../inc/add-ons/customizer-extras/options-init.php:195
 msgid ""
 "Automatically append the next page of posts (via AJAX) to your page when a "
 "user scrolls to the bottom or clicks button of loading from the bottom."
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:206
+#: ../inc/add-ons/customizer-extras/options-init.php:205
 msgid "Infinite Scrolling Occurs when You Scroll to The Bottom"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:207
+#: ../inc/add-ons/customizer-extras/options-init.php:206
 msgid ""
 "Close to the bottom the refresh occurs, and this option acts on posts. When "
 "this option is enabled, you will see the effect."
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:228
+#: ../inc/add-ons/customizer-extras/options-init.php:227
 msgid "Styling"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:238
+#: ../inc/add-ons/customizer-extras/options-init.php:237
 msgid "Paging Navigation"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:254
+#: ../inc/add-ons/customizer-extras/options-init.php:253
 msgid "Numeric Pagination"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:255
+#: ../inc/add-ons/customizer-extras/options-init.php:254
 msgid "If this option turned on, the post list will use numeric pagination."
 msgstr ""
 
 #: ../inc/add-ons/customizer-extras/options-init.php:273
-msgid "Google Map"
-msgstr ""
-
-#: ../inc/add-ons/customizer-extras/options-init.php:289
-msgid "Map Style"
-msgstr ""
-
-#: ../inc/add-ons/customizer-extras/options-init.php:290
-msgid ""
-"You can make a search, use the name of a place, city, state, or address, or "
-"click the location on the map to get lat long coordinates. &rarr; <a "
-"href=\"//www.latlong.net/\" target=\"_blank\">Get Latitude Longitude</a>"
-msgstr ""
-
-#: ../inc/add-ons/customizer-extras/options-init.php:312
-msgid "Place Name"
-msgstr ""
-
-#: ../inc/add-ons/customizer-extras/options-init.php:322
-msgid "Latitude"
-msgstr ""
-
-#: ../inc/add-ons/customizer-extras/options-init.php:333
-msgid "Longitude"
-msgstr ""
-
-#: ../inc/add-ons/customizer-extras/options-init.php:344
-msgid "Zoom"
-msgstr ""
-
-#: ../inc/add-ons/customizer-extras/options-init.php:360
-msgid "Map Height"
-msgstr ""
-
-#: ../inc/add-ons/customizer-extras/options-init.php:361
-msgid "It default to using a 100% width. The height pixel (px) unit is adjustable."
-msgstr ""
-
-#: ../inc/add-ons/customizer-extras/options-init.php:370
-msgid "Marker"
-msgstr ""
-
-#: ../inc/add-ons/customizer-extras/options-init.php:371
-msgid ""
-"By default, a marker uses a standard image. Markers can display custom "
-"images, in which case they are usually referred to as \"icons.\""
-msgstr ""
-
-#: ../inc/add-ons/customizer-extras/options-init.php:390
 msgid "Social Links"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:408
+#: ../inc/add-ons/customizer-extras/options-init.php:291
 msgid "Add social media icons to your website or blog. For example,"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:417
+#: ../inc/add-ons/customizer-extras/options-init.php:300
 msgid "Twitter"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:418
+#: ../inc/add-ons/customizer-extras/options-init.php:301
 msgid "Your Twitter Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:427
+#: ../inc/add-ons/customizer-extras/options-init.php:310
 msgid "Facebook"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:428
+#: ../inc/add-ons/customizer-extras/options-init.php:311
 msgid "Your Facebook Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:437
+#: ../inc/add-ons/customizer-extras/options-init.php:320
 msgid "Google+"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:438
+#: ../inc/add-ons/customizer-extras/options-init.php:321
 msgid "Your Google+ Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:447
+#: ../inc/add-ons/customizer-extras/options-init.php:330
 msgid "Medium"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:448
+#: ../inc/add-ons/customizer-extras/options-init.php:331
 msgid "Your Medium Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:458
+#: ../inc/add-ons/customizer-extras/options-init.php:341
 msgid "Product Hunt"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:459
+#: ../inc/add-ons/customizer-extras/options-init.php:342
 msgid "Your Product Hunt Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:468
+#: ../inc/add-ons/customizer-extras/options-init.php:351
 msgid "Last.fm"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:469
+#: ../inc/add-ons/customizer-extras/options-init.php:352
 msgid "Your Last.fm Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:478
+#: ../inc/add-ons/customizer-extras/options-init.php:361
 msgid "SoundCloud"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:479
+#: ../inc/add-ons/customizer-extras/options-init.php:362
 msgid "Your SoundCloud Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:488
+#: ../inc/add-ons/customizer-extras/options-init.php:371
 msgid "Dropbox"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:489
+#: ../inc/add-ons/customizer-extras/options-init.php:372
 msgid "Your Dropbox Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:499
+#: ../inc/add-ons/customizer-extras/options-init.php:382
 msgid "Dribbble"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:500
+#: ../inc/add-ons/customizer-extras/options-init.php:383
 msgid "Your Dribbble Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:509
+#: ../inc/add-ons/customizer-extras/options-init.php:392
 msgid "Pinterest"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:510
+#: ../inc/add-ons/customizer-extras/options-init.php:393
 msgid "Your Pinterest Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:519
+#: ../inc/add-ons/customizer-extras/options-init.php:402
 msgid "Behance"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:520
+#: ../inc/add-ons/customizer-extras/options-init.php:403
 msgid "Your Behance Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:529
+#: ../inc/add-ons/customizer-extras/options-init.php:412
 msgid "Deviantart"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:530
+#: ../inc/add-ons/customizer-extras/options-init.php:413
 msgid "Your Deviantart Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:539
+#: ../inc/add-ons/customizer-extras/options-init.php:422
 msgid "Flickr"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:540
+#: ../inc/add-ons/customizer-extras/options-init.php:423
 msgid "Your Flickr Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:549
+#: ../inc/add-ons/customizer-extras/options-init.php:432
 msgid "Github"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:550
+#: ../inc/add-ons/customizer-extras/options-init.php:433
 msgid "Your Github Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:560
+#: ../inc/add-ons/customizer-extras/options-init.php:443
 msgid "Instagram"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:561
+#: ../inc/add-ons/customizer-extras/options-init.php:444
 msgid "Your Instagram Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:571
+#: ../inc/add-ons/customizer-extras/options-init.php:454
 msgid "Linkedin"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:572
+#: ../inc/add-ons/customizer-extras/options-init.php:455
 msgid "Your Linkedin Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:581
+#: ../inc/add-ons/customizer-extras/options-init.php:464
 msgid "Digg"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:582
+#: ../inc/add-ons/customizer-extras/options-init.php:465
 msgid "Your Digg Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:592
+#: ../inc/add-ons/customizer-extras/options-init.php:475
 msgid "Tumblr"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:593
+#: ../inc/add-ons/customizer-extras/options-init.php:476
 msgid "Your Tumblr Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:602
+#: ../inc/add-ons/customizer-extras/options-init.php:485
 msgid "Youtube"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:603
+#: ../inc/add-ons/customizer-extras/options-init.php:486
 msgid "Your Youtube Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:612
+#: ../inc/add-ons/customizer-extras/options-init.php:495
 msgid "Vimeo"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:613
+#: ../inc/add-ons/customizer-extras/options-init.php:496
 msgid "Your Vimeo Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:622
+#: ../inc/add-ons/customizer-extras/options-init.php:505
 msgid "Reddit"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:623
+#: ../inc/add-ons/customizer-extras/options-init.php:506
 msgid "Your Reddit Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:633
+#: ../inc/add-ons/customizer-extras/options-init.php:516
 msgid "Weibo"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:634
+#: ../inc/add-ons/customizer-extras/options-init.php:517
 msgid "Your Weibo Page URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:645
+#: ../inc/add-ons/customizer-extras/options-init.php:528
 msgid "Your Website URL"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:668
+#: ../inc/add-ons/customizer-extras/options-init.php:551
 msgid "Uix Slides Settings"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:686
+#: ../inc/add-ons/customizer-extras/options-init.php:569
 msgid "Effect"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:692
+#: ../inc/add-ons/customizer-extras/options-init.php:575
 msgid "Slide"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:693
+#: ../inc/add-ons/customizer-extras/options-init.php:576
 msgid "Fade"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:700
+#: ../inc/add-ons/customizer-extras/options-init.php:583
 msgid "Automatically Transition"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:701
+#: ../inc/add-ons/customizer-extras/options-init.php:584
 msgid "Setup a slideshow for the slider to animate automatically."
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:710
+#: ../inc/add-ons/customizer-extras/options-init.php:593
 msgid "Speed of images appereance in ms"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:726
+#: ../inc/add-ons/customizer-extras/options-init.php:609
 msgid "Delay between images in ms"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:742
+#: ../inc/add-ons/customizer-extras/options-init.php:625
 msgid "Show Arrow Navigation"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:743
+#: ../inc/add-ons/customizer-extras/options-init.php:626
 msgid "Create previous/next arrow navigation."
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:753
+#: ../inc/add-ons/customizer-extras/options-init.php:636
 msgid "Show Paging Navigation"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:754
+#: ../inc/add-ons/customizer-extras/options-init.php:637
 msgid "Create navigation for paging control of each slide."
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:764
+#: ../inc/add-ons/customizer-extras/options-init.php:647
 msgid "Animation Loop"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:765
+#: ../inc/add-ons/customizer-extras/options-init.php:648
 msgid "Gives the slider a seamless infinite loop."
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:774
+#: ../inc/add-ons/customizer-extras/options-init.php:657
 msgid "Smooth Height"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:775
+#: ../inc/add-ons/customizer-extras/options-init.php:658
 msgid "Animate the height of the slider smoothly for slides of varying height."
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:785
+#: ../inc/add-ons/customizer-extras/options-init.php:668
 msgid "Show Text Information"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:797
+#: ../inc/add-ons/customizer-extras/options-init.php:680
 msgid "Image Size for Entry"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:809
+#: ../inc/add-ons/customizer-extras/options-init.php:692
 msgid "Max Width (in px)"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:819
+#: ../inc/add-ons/customizer-extras/options-init.php:702
 msgid "Max Height (in px)"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:837
+#: ../inc/add-ons/customizer-extras/options-init.php:720
 msgid "Slider Title"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:854 ../inc/add-
-#: ons/customizer-extras/options-init.php:901
+#: ../inc/add-ons/customizer-extras/options-init.php:737 ../inc/add-
+#: ons/customizer-extras/options-init.php:784
 msgid "Font Family"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:884
+#: ../inc/add-ons/customizer-extras/options-init.php:767
 msgid "Slider Caption"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:926
+#: ../inc/add-ons/customizer-extras/options-init.php:809
 msgid "Custom CSS"
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:927
+#: ../inc/add-ons/customizer-extras/options-init.php:810
 msgid ""
 "You can overview the original styles to overwrite it. It will be on creating "
 "new styles to your website, without modifying original <code>.css</code> "
 "files."
 msgstr ""
 
-#: ../inc/add-ons/customizer-extras/options-init.php:930
+#: ../inc/add-ons/customizer-extras/options-init.php:813
 msgid "CSS file root directory:"
 msgstr ""
 
@@ -1544,8 +1504,4 @@ msgstr ""
 
 #. Author of the theme
 msgid "UIUX Lab"
-msgstr ""
-
-#. Author URI of the theme
-msgid "https://uiux.cc"
 msgstr ""

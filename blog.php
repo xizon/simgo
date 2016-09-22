@@ -52,9 +52,12 @@ get_header(); ?>
             <section class="body">
             
       
-                
-                        <div class="content-container">
-                        
+					<?php if ( $layout != 'no-sidebar' ) { ?>
+          
+                    <div class="content-container">
+                    
+                    <?php } ?>
+
                                     
 
                                     <!-- ==================  Post list ==================  -->
@@ -84,9 +87,7 @@ get_header(); ?>
                                                      * If you want to override this in a child theme, then include a file
                                                      * called content-___.php (where ___ is the Post Format name) and that will be used instead.
                                                      */
-                                                           if ( $layout == 'standard' ) {
-                                                               get_template_part( 'content', get_post_format() ); 
-                                                           }
+                                                           get_template_part( 'content', get_post_format() ); 
                                                     
                                                         
                                                     endwhile; 
@@ -134,23 +135,26 @@ get_header(); ?>
                                     </div>
                                     <!-- ==================  /Pagination ==================  -->
                                     
-                                   
+                                       
+                    <?php if ( $layout != 'no-sidebar' ) { ?>
+                    
+                    
+                    </div><!-- /.content-container -->
+                    
+                    <div class="sidebar-container">
+                         
+                         
+                           <?php get_sidebar(); ?>
                         
-                        </div><!-- /.content-container -->
                         
-                        <div class="sidebar-container">
-                             
-                             
-                               <?php get_sidebar(); ?>
+                        
+                        
+                    </div><!-- /.sidebar-container -->
+                    
+                    <div class="clear"></div>
+                    
+                    <?php } ?>
                             
-                            
-                            
-                            
-                        </div><!-- /.sidebar-container -->
-                        
-                        <div class="clear"></div>
-                        
-                        
                       
                     
                          
