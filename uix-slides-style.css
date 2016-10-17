@@ -100,7 +100,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	
 	
     .uix-slides-homepage-content {
@@ -197,7 +197,7 @@
     padding: 10px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .uix-slides-homepage-inner {
         display: none;
     }
