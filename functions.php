@@ -646,9 +646,9 @@ function simgo_require_plugins() {
 			array(
 				'name'               => 'Uix Shortcodes', 
 				'slug'               => 'uix-shortcodes', 
-				'source'             => 'https://downloads.wordpress.org/plugin/uix-shortcodes.1.0.4.zip',
+				'source'             => 'https://downloads.wordpress.org/plugin/uix-shortcodes.1.0.6.zip',
 				'required'           => false, 
-				'version'            => '1.0.4'
+				'version'            => '1.0.6'
 			),
 		
 			array(
