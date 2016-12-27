@@ -6,6 +6,15 @@ This theme item is entirely licensed under the General Public License(GPL).
 
 ****** Changelog ******
 
+= 1.5 =
+
+December 28, 2016
+
+* Optimized for shortcodes.
+* Improved the running speed.
+* WordPress 4.7 compatible.
+
+
 = 1.1 =
 
 October 17, 2016
