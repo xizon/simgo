@@ -855,7 +855,9 @@ require get_template_directory() . '/inc/core/customize-ex.php';
  */
 	
 require get_template_directory() . '/inc/update/automatic-theme-plugin-update.php';
-
+if ( $pagenow == 'update-core.php' ) {
+    set_site_transient( 'update_themes', null );
+}
 
 
 
