@@ -20,6 +20,7 @@ A simple blog & portfolio WordPress theme. It is fast and easy switching simply 
 
 ### Features:
 
+*   Custom Slides and Header Background Color.
 *   Fully responsive, allowing visitors to access your site on any device, from mobile to desktop.
 *   Infinite Scrolling Support
 *   Header Custom
