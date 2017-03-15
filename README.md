@@ -37,6 +37,14 @@ A simple blog & portfolio WordPress theme. It is fast and easy switching simply 
 
 ### Changelog
 
+#### === 1.6 ===
+
+* Compatible with low version PHP (5.3+)
+* Fixed some minor errors in the low version of PHP.
+* Optimized mobile navigation.
+
+
+
 #### === 1.5 ===
 
 * Optimized for shortcodes.
