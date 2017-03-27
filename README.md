@@ -34,8 +34,18 @@ A simple blog & portfolio WordPress theme. It is fast and easy switching simply 
 *   Supports a handy Social Links menu, which appears in the footer.
 
 
+For more information about Simgo please go to https://uiux.cc
+
 
 ### Changelog
+
+
+#### === 1.7 ===
+
+* Optimized admin panel.
+* Upgraded shortcodes plugin.
+
+
 
 #### === 1.6 ===
 
