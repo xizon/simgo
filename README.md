@@ -11,7 +11,7 @@ Copyright (c) 2016 UIUX Lab [@uiux_lab](https://twitter.com/uiux_lab)
 
 ### Licensing
 
-Licensed under the [GPL3.0](http://www.gnu.org/licenses/gpl-3.0.en.html).
+Licensed under the Licensed under the GPLv2 or later.
 
 ### Description
 
