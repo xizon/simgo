@@ -39,6 +39,14 @@ For more information about Simgo please go to https://uiux.cc
 
 ### Changelog
 
+#### = 1.8 =
+
+November 19, 2018
+
+* Removed Uix Sliders and replaced it with Uix Slideshow on wp.org.
+* Micro-optimized other styles.
+* Let the plugin support Gutenberg.
+
 
 #### === 1.7 ===
 
@@ -82,7 +90,10 @@ For more information about Simgo please go to https://uiux.cc
 - WP 4.4.2
 - WP 4.5.*
 - WP 4.6.*
-- WP 4.7
+- WP 4.7.*
+- WP 4.8.*
+- WP 4.9.*
+- WP 5.0 Beta
 
 
 ###Screenshot
