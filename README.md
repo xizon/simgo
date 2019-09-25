@@ -39,6 +39,15 @@ For more information about Simgo please go to https://uiux.cc
 
 ### Changelog
 
+
+#### = 2.0 =
+
+September 25, 2019
+
+* Remove: Removed the plugin `jquery.flexslider` using native js instead.
+* Remove: Removed Page Transitions effect.
+* Tweak: Upgraded Uix Slideshow plugin.
+
 #### = 1.8 =
 
 November 19, 2018
